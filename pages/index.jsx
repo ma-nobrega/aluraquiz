@@ -1,8 +1,8 @@
 /* eslint-disable react/jsx-one-expression-per-line */
 import React from 'react';
 import { useRouter } from 'next/router';
+import Img from 'next/image';
 import db from '../db.json';
-
 import Widget from '../src/components/Widget';
 import Footer from '../src/components/Footer';
 import QuizLogo from '../src/components/QuizLogo';
@@ -42,7 +42,8 @@ export default function Home() {
                 value={name}
               />
               <Button type="submit" disabled={name.length < 4}>
-                {`Jogar ${name}`}
+                <span>Jogar</span>
+                <Img className src="/../public/logo.jpg" width={25} height={20} />
               </Button>
             </form>
           </Widget.Content>

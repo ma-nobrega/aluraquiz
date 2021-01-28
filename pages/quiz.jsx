@@ -1,5 +1,7 @@
 /* eslint-disable react/prop-types */
 import React from 'react';
+import Loader from 'react-loader-spinner';
+import 'react-loader-spinner/dist/loader/css/react-spinner-loader.css';
 import db from '../db.json';
 import Widget from '../src/components/Widget';
 import QuizLogo from '../src/components/QuizLogo';
@@ -9,15 +11,21 @@ import Button from '../src/components/Button';
 
 function LoadingWidget() {
   return (
-    <Widget>
-      <Widget.Header>
-        Carregando...
-      </Widget.Header>
-
-      <Widget.Content>
-        [Desafio do Loading]
-      </Widget.Content>
-    </Widget>
+    <div
+      style={{
+        height: '500px',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+      }}
+    >
+      <Loader
+        type="TailSpin"
+        color={db.theme.colors.primary}
+        height={100}
+        width={100}
+      />
+    </div>
   );
 }
 
@@ -101,7 +109,7 @@ export default function QuizPage() {
   React.useEffect(() => {
     setTimeout(() => {
       setScreenState(screenStates.QUIZ);
-    }, 1 * 1000);
+    }, 1 * 1500);
   }, []);
 
   function handleSubmitQuiz() {

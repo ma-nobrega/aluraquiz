@@ -14,7 +14,13 @@ const Button = styled.button`
   text-transform: uppercase;
   outline: 0;
   transition: .3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   cursor: pointer;
+  span{
+    margin-right:8px;
+  }
   &:hover,
   &:focus {
     opacity: .5;
