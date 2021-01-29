@@ -12,6 +12,18 @@ const InputBase = styled.input`
   border-radius: ${({ theme }) => theme.borderRadius};
   outline: 0;
   margin-bottom: 25px;
+
+::-webkit-input-placeholder {
+  color: ${({ theme }) => theme.colors.contrastText};
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+  color: ${({ theme }) => theme.colors.contrastText};  
+}
+
+:-ms-input-placeholder {  
+  color: ${({ theme }) => theme.colors.contrastText};  
+}
 `;
 
 export default function Input({ onChange, placeholder, ...props }) {

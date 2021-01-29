@@ -43,7 +43,7 @@ export default function Home() {
               />
               <Button type="submit" disabled={name.length < 4}>
                 <span>Jogar</span>
-                <Img className src="/../public/logo.jpg" width={25} height={20} />
+                <Img className src="/start.png" width={25} height={20} />
               </Button>
             </form>
           </Widget.Content>
