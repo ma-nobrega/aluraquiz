@@ -21,10 +21,6 @@ export default function Home() {
     router.push(`/quiz?name=${name}`);
   }
 
-  function handleChange(event) {
-    setName(event.target.value);
-  }
-
   return (
     <QuizBackground backgroundImage={db.bg}>
       <QuizContainer>
@@ -38,7 +34,7 @@ export default function Home() {
               <Input
                 name="username"
                 placeholder="Diz ai seu nome"
-                onChange={handleChange}
+                onChange={(event) => setName(event.target.value)}
                 value={name}
               />
               <Button type="submit" disabled={name.length < 4}>
@@ -51,7 +47,9 @@ export default function Home() {
         </Widget>
         <Widget>
           <Widget.Content>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <h1>Quizes da Galera</h1>
+
+            <p>lorem ipsum dolor sit amet...</p>
           </Widget.Content>
         </Widget>
         <Footer />
