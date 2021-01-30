@@ -1,5 +1,5 @@
 <h3 align="justify">
-Aluraquiz é um projeto Open Source desenvolvido na semana Imersão React (2.0) da Alura utilizando as tecnologias **React e Nextjs.
+Aluraquiz é um projeto Open Source desenvolvido na semana Imersão React (2.0) da Alura utilizando as tecnologias React e Nextjs.
 
 </h3>
 
