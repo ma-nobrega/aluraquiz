@@ -134,7 +134,7 @@ function QuestionWidget({
           }}
         >
           {question.alternatives.map((alternative, alternativeIndex) => {
-            const alternativeId = `alternative__${alternativeIndex}`;
+            const alternativeId = `alternative__${alternativeIndex}__${questionIndex}`;
             const alternativeStatus = isCorrect ? 'SUCCESS' : 'ERROR';
             const isSelected = selectedAlternative === alternativeIndex;
             return (
@@ -148,7 +148,7 @@ function QuestionWidget({
                 <input
                   style={{ display: 'none' }}
                   id={alternativeId}
-                  name={questionId}
+                  name={`${questionId}__${questionIndex}`}
                   onChange={() => setSelectedAlternative(alternativeIndex)}
                   type="radio"
                 />
