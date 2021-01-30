@@ -4,40 +4,97 @@
   "description": "Vamos descobrir os seus conhecimentos sobre Dragon Ball Z nesse quiz divertido!",
   "questions": [
     {
-      "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
-      "title": "Como fazer um seletor por id via CSS?",
+      "image": "https://pa1.narvii.com/6411/39ff40967aa7c6a5be7b313347ab3cad22daeec8_hq.gif",
+      "title": "Quanto é o poder de um Saibamen?",
       "description": "Essa é pra aquecer",
-      "answer": 2,
+      "answer": 1,
       "alternatives": [
-        ".elemento",
-        "*elemento",
-        "#elemento",
-        "%elemento"
+        "2,200",
+        "1,200",
+        "5,300",
+        "4,100"
       ]
     },
     {
-      "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-      "title": "Como fazer um background gradiente com css?",
+      "image": "https://pa1.narvii.com/6740/d224a283175808a7f405bb44515628c2eac292a1_hq.gif",
+      "title": "Quanto é o poder de um Saibamen?",
+      "description": "Essa é pra aquecer",
+      "answer": 2,
+      "alternatives": [
+        "Ele aprendeu com seu mestre",
+        "Goku ensinou a tecnica para ele",
+        "Ele se fundiu com uma bruxa que sabia essa habilidade"
+      ]
+    },
+    {
+      "image": "https://i.pinimg.com/originals/73/3c/af/733caf7165eb7884d09cf38c8e15261c.gif",
+      "title": "Porque Vegeta se deixou ser controlado por Babidi?",
+      "description": "Faz tempo em haha",
+      "answer": 1,
+      "alternatives": [
+        "Para ser quem ele era antes",
+        "Para lutar contra o Goku",
+        "Para destruir o planeta"
+      ]
+    },
+    {
+      "image": "https://media1.tenor.com/images/af10428b4417babb9f176ce6860a8368/tenor.gif?itemid=7254534",
+      "title": "Em qual doce o Majin Boo transforma as pessoas?",
       "description": "Faz tempo em haha",
       "answer": 0,
       "alternatives": [
-        "background: linear-gradient(#e66465, #9198e5);",
-        "background: gradient(#e66465, #9198e5);"
+        "Chocolate",
+        "Pirulito",
+        "Chiclete"
+      ]
+    },
+    {
+      "image": "https://media2.giphy.com/media/Zaeyj0lscMhA4/200.gif",
+      "title": "Chi-Chi, no decorrer do anime, quer que o Gohan:",
+      "description": "Faz tempo em haha",
+      "answer": 2,
+      "alternatives": [
+        "Treine para ser um bom guerreiro",
+        "Ajude-a nas tarefas de casa",
+        "Estude"
+      ]
+    },
+    {
+      "image": "https://i.makeagif.com/media/7-18-2016/eBiz3K.gif",
+      "title": "Com que golpe Piccolo lança para matar Raditz e Goku?",
+      "description": "Faz tempo em haha",
+      "answer": 0,
+      "alternatives": [
+        "Makanko Sappo",
+        "Shin Kikoho",
+        "Kienzan"
+      ]
+    },
+    {
+      "image": "https://media3.giphy.com/media/6lC80qeV7geac/giphy.gif",
+      "title": "Quem treinou Gohan quando ele era pequeno?",
+      "description": "Faz tempo em haha",
+      "answer": 1,
+      "alternatives": [
+        "Goku",
+        "Piccolo",
+        "Vegeta"
       ]
     }
   ],
   "external": [
-    ""
+    "https://aluraquiz-css.omariosouto.vercel.app/",
+    "https://aluraquiz-devsoutinho.omariosouto.vercel.app/"
   ],
   "theme": {
     "colors": {
-      "primary": "#0d47a1",
+      "primary": "#123478",
       "secondary": "#f43513",
       "tertiary": "#FF5720",
-      "mainBg": "#171B35",
+      "mainBg": "#152f68",
       "contrastText": "#FFFFFF",
-      "wrong": "#f43513",
-      "success": "#fb882d"
+      "wrong": "#f40000",
+      "success": "#4CAF50"
     },
     "borderRadius": "8px"
   }
