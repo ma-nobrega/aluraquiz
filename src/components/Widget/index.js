@@ -48,6 +48,9 @@ Widget.Content = styled.div`
       border-radius: 4px;
       display: flex;
       align-items:center;
+      p{
+        background-color: ${({ theme }) => theme.colors.tertiary};
+      }
     }
   }
 `;

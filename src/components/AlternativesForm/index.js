@@ -21,6 +21,22 @@ const AlternativesForm = styled.form`
   button {
     margin-top: 24px;
   }
+  p{
+  color: ${({ theme }) => theme.colors.contrastText};
+  border-radius: ${({ theme }) => theme.borderRadius};
+  border: 0;
+  width: 100%;
+  padding: 10px 16px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1;
+  text-transform: uppercase;
+  outline: 0;
+  transition: .3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
 `;
 
 export default AlternativesForm;
