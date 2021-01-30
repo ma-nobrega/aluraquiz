@@ -33,8 +33,8 @@ function ResultWidget({ results }) {
               {' '}
               Resultado:
               {result === true
-                ? 'Acertou'
-                : 'Errou'}
+                ? ' Acertou'
+                : ' Errou'}
             </li>
           ))}
         </ul>
