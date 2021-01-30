@@ -2,15 +2,17 @@
 import React, { useState, useEffect } from 'react';
 import Loader from 'react-loader-spinner';
 import 'react-loader-spinner/dist/loader/css/react-spinner-loader.css';
-import db from '../../db.json';
+import { useRouter } from 'next/router';
 import Widget from '../../src/components/Widget';
 import QuizLogo from '../../src/components/QuizLogo';
 import QuizBackground from '../../src/components/QuizBackground';
 import QuizContainer from '../../src/components/QuizContainer';
 import AlternativesForm from '../../src/components/AlternativesForm';
 import Button from '../../src/components/Button';
+import db from '../../db.json';
 
 function ResultWidget({ results }) {
+  const router = useRouter();
   return (
     <Widget>
       <Widget.Header>
@@ -38,6 +40,7 @@ function ResultWidget({ results }) {
             </li>
           ))}
         </ul>
+        <Button type="button" onClick={() => router.push('/')}>Voltar ao ínicio</Button>
       </Widget.Content>
     </Widget>
   );

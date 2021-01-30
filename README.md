@@ -1,15 +1,11 @@
 <h3 align="justify">
-Aluraquiz é um projeto **Open Source** desenvolvido na semana **Imersão React (2.0)** da **Alura** utilizando as tecnologias **React e Nextjs**.
+Aluraquiz é um projeto Open Source desenvolvido na semana Imersão React (2.0) da Alura utilizando as tecnologias **React e Nextjs.
 
 </h3>
 
 <div align="center">
 	<img src="public/projeto.png" with="800" height="300"/>
 </div>
-
-## :dart: Objetivo
-
-Com a proposta de nos mostrar como nextjs funciona, a alura prôpos a criação de uma aplicação para aplicar os conceitos desse framework que vem ganhando muito espaço no mercado nos útimos dias. Sendo assim a ideia é construir um app de perguntas e respostas, o famigerado Quiz. O tema do projeto é livre, e decidi fazer um quiz de Cavaleiros do Zodiaco, anime que marcou minha infância e com certeza de gerações. :)
 
 ## :hammer_and_wrench: Ferramentas
 
