@@ -46,10 +46,8 @@ Widget.Content = styled.div`
       background-color: ${({ theme }) => theme.colors.tertiary};
       margin: 8px 0;
       border-radius: 4px;
-      height:30px;
       display: flex;
       align-items:center;
-      padding:0 8px;
     }
   }
 `;
