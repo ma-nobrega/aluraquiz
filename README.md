@@ -59,5 +59,5 @@ yarn dev
 
 <h3 align="center">
   Feito por 
-  <a href="https://www.linkedin.com/in/manobrega/">Matheus Nobrega<a>
+  <a href="https://www.linkedin.com/in/ma-nobrega/">Matheus Nobrega<a>
 </h3>

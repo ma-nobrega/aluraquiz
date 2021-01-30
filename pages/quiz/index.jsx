@@ -1,6 +1,7 @@
 /* eslint-disable react/prop-types */
 import React, { useState, useEffect } from 'react';
 import Loader from 'react-loader-spinner';
+import { motion } from 'framer-motion';
 import 'react-loader-spinner/dist/loader/css/react-spinner-loader.css';
 import { useRouter } from 'next/router';
 import Widget from '../../src/components/Widget';
@@ -14,7 +15,16 @@ import db from '../../db.json';
 function ResultWidget({ results }) {
   const router = useRouter();
   return (
-    <Widget>
+    <Widget
+      as={motion.section}
+      transition={{ delay: 0.5, duration: 0.5 }}
+      variants={{
+        show: { opacity: 1 },
+        hidden: { opacity: 0 },
+      }}
+      initial="hidden"
+      animate="show"
+    >
       <Widget.Header>
         Tela de Resultado:
       </Widget.Header>
@@ -80,7 +90,14 @@ function QuestionWidget({
   const hasAlternativeSelected = selectedAlternative !== undefined;
 
   return (
-    <Widget>
+    <Widget
+      as={motion.section}
+      transition={{ delay: 1, duration: 0.5 }}
+      variants={{
+        show: { opacity: 1 },
+        hidden: { opacity: 0 },
+      }}
+    >
       <Widget.Header>
         <h3>
           {`Pergunta ${questionIndex + 1} de ${totalQuestions}`}
